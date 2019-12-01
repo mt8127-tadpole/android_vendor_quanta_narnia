@@ -23,7 +23,3 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system/vendor,system/vendor)
 
 
-PRODUCT_PACKAGES += \
-libblisrc \
-libblisrc32 \
-libcorkscrew 
